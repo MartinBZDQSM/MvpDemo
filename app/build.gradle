@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.0"
 
     defaultConfig {
-        applicationId "com.martin.mvp"
+        applicationId "com.martin.com.martin.mvp"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
@@ -53,7 +53,7 @@ dependencies {
     debugCompile 'com.apkfuns.logutils:library:1.4.2'
     releaseCompile 'com.apkfuns.logutils:logutils-no-op:1.4.2.1'
     //eventbus
-    compile 'org.greenrobot:eventbus:3.0.0'
+//    compile 'org.greenrobot:eventbus:3.0.0'
     //butterknife
     compile 'com.jakewharton:butterknife:7.0.1'
     //retrofit
