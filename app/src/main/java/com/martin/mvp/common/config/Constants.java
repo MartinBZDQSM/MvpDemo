@@ -8,6 +8,14 @@ package com.martin.mvp.common.config;
  */
 public class Constants {
 
-    public static final String BASE_URL = "";
+    public static final String BASE_URL = "http://gank.io/api/";
 
+    public static final String TYPE_ALL = "all";
+    public static final String TYPE_ANDROID = "Android";
+    public static final String TYPE_FULI = "福利";
+    public static final String TYPE_IOS = "iOS";
+    public static final String TYPE_QIANDUAN = "前端";
+    public static final String TYPE_VIDIO = "休息视频";
+    public static final String TYPE_OTHER = "拓展资源";
+//    public static final String
 }
