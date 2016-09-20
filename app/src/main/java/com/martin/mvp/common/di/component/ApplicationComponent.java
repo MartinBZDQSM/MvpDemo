@@ -16,7 +16,7 @@ import dagger.Component;
  * github：https://github.com/MartinBZDQSM
  */
 @PreApp
-@Component(modules = {ApiModules.class, ApplicationModule.class})
+@Component(modules = { ApplicationModule.class})
 public interface ApplicationComponent {
 
     void inject(BasePresenter basePresenter);

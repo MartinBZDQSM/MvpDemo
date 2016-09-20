@@ -11,7 +11,8 @@ import com.bumptech.glide.load.engine.cache.LruResourceCache;
  * 作者：MartinBZDQSM on 2016/9/18 0018.
  * 博客：http://www.jianshu.com/users/78f0e5f4a403/latest_articles
  * github：https://github.com/MartinBZDQSM
- * 说明：Glide的基础配置，继承OkHttpGlideModule，不用再配置okhttp了
+ * 说明：Glide的基础配置，继承OkHttpGlideModule，不用再配置okhttp了,
+ * 需要注意的地方如果需要混淆打包同样的需要配置相关GlideModule上去。
  *
  */
 public class GlideConfig extends OkHttpGlideModule {

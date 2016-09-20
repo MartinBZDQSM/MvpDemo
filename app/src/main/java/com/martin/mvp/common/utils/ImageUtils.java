@@ -46,7 +46,7 @@ public class ImageUtils {
      * @param url
      * @return
      */
-    public Bitmap getBitmap(String url) {
+    public static Bitmap getBitmap(String url) {
 
         try {
             Bitmap bitmap = Glide.with(MvpApplication.getmContext()).load(url).asBitmap().into(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL).get();
